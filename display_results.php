@@ -19,13 +19,13 @@
     // display a value of 'Yes' or 'No'
 
  $wants_updates = $_POST['wants_updates'];
-   //  if (isset($wants_updates)) {
-    //         $wants_updates = 'Yes';
-//	} 
-//	else
-//	{
-//	  $wants_updates = 'No';
-//	 }
+     if (isset($wants_updates)) {
+             $wants_updates = 'Yes';
+	} 
+	else
+	{
+	  $wants_updates = 'No';
+	 }
          $contact_via = filter_input(INPUT_POST, 'contact_via');
         // $comments = filter_input(INPUT_POST, 'comments');
         // $comments = htmlspecialchars($comments); 
