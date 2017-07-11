@@ -27,9 +27,9 @@
 	  $wants_updates = 'No';
 	 }
          $contact_via = filter_input(INPUT_POST, 'contact_via');
-        // $comments = filter_input(INPUT_POST, 'comments');
-        // $comments = htmlspecialchars($comments); 
-       // $comments = nl2br($comments, false);    
+         $comments = filter_input(INPUT_POST, 'comments');
+         $comments = htmlspecialchars($comments); 
+        $comments = nl2br($comments, false);    
 
 ?>
 <!DOCTYPE html>
